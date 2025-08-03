@@ -1,0 +1,48 @@
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── Auth/
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   └── AuthForm.jsx
+│   ├── Article/
+│   │   ├── ArticleList.jsx
+│   │   ├── ArticleCard.jsx
+│   │   ├── ArticleDetail.jsx
+│   │   └── SubmissionForm.jsx
+│   ├── Admin/
+│   │   ├── Dashboard.jsx
+│   │   ├── ArticleReview.jsx
+│   │   └── UserManagement.jsx
+│   └── Social/
+│       ├── TwitterFeed.jsx
+│       └── BlogFeed.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Guidelines.jsx
+│   ├── Terms.jsx
+│   ├── RefundPolicy.jsx
+│   ├── AuthorTerms.jsx
+│   └── Profile.jsx
+├── context/
+│   ├── AuthContext.js
+│   └── ArticleContext.js
+├── hooks/
+│   ├── useAuth.js
+│   └── useArticles.js
+├── services/
+│   ├── auth.js
+│   └── articles.js
+├── styles/
+│   ├── main.scss
+│   ├── variables.scss
+│   └── components/
+│       ├── _header.scss
+│       ├── _footer.scss
+│       └── ...
+├── App.js
+├── index.js
+└── routes.js
